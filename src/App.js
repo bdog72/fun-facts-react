@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+//
+//
+
 import './App.css';
+
+// import List from './List';
+
+import imageReact from './react-logo.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app-container'>
+      <div className='app-container1'>
+        <img src={imageReact} alt='' />
+        <h1>Fun facts about React</h1>
+        {/* <List /> */}
+        <ul className='app-list'>
+          <li>Was first released in 2013</li>
+          <li>Was originally created by Jordan Walke</li>
+          <li>Has well over 100K stars on GitHub</li>
+          <li>Is maintained by Facebook</li>
+          <li>Powers thousands of enterprise apps</li>
+          <li>Including mobile apps</li>
+        </ul>
+      </div>
     </div>
   );
 }
