@@ -1,0 +1,30 @@
+/*  */
+/*  */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #21222a;
+  padding: 30px;
+  height: 90px;
+}
+
+.navbar-container1,
+.navbar-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-container1 img {
+  width: 60px;
+  padding-right: 10px;
+}
+
+.navbar-container1 h2 {
+  color: #61dafb;
+}
+
+.navbar-container2 h3 {
+  color: #fff;
+}
