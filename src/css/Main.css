@@ -1,0 +1,43 @@
+/*  */
+/*  */
+
+main {
+  padding: 57px 27px;
+  background-image: url('../images/react-icon-large.png');
+  background-position: right 75%;
+  background-repeat: no-repeat;
+}
+
+.main-container h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  margin: 0;
+  padding-left: 29px;
+  padding-bottom: 26px;
+}
+
+.main-list {
+  padding-left: 74px;
+}
+
+.main-list li {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  padding-block: 10px;
+}
+
+.main-list li::marker {
+  color: #61dafb;
+  font-size: 16px;
+}

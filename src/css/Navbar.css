@@ -6,7 +6,7 @@ nav {
   justify-content: space-between;
   background: #21222a;
   padding: 30px;
-  height: 90px;
+  min-height: 90px;
 }
 
 .navbar-container1,
@@ -27,4 +27,10 @@ nav {
 
 .navbar-container2 h3 {
   color: #fff;
+}
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
 }
